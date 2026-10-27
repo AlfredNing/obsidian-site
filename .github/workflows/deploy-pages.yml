@@ -35,7 +35,7 @@ jobs:
 
       - name: Build Quartz site
         working-directory: website
-        run: npx quartz build -d ../Publish
+        run: node ./quartz/bootstrap-cli.mjs build -d ../Publish
 
       - name: Mark artifact for GitHub Pages
         run: touch website/public/.nojekyll
@@ -58,3 +58,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
