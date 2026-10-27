@@ -9,7 +9,7 @@ configuration:
   locale: zh-CN
   # 部署后改成你的域名，例如 notes.example.com
   # 本地预览可保持 localhost:8080
-  baseUrl: "localhost:8080"
+  baseUrl: "alfredning.github.io/obsidian-site"
   ignorePatterns:
     - private
     - templates
@@ -287,3 +287,4 @@ layout:
         right: []
     canvas: {}
     bases: {}
+
