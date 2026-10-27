@@ -1,0 +1,9 @@
+.DS_Store
+node_modules/
+website/public/
+website/.quartz-cache/
+website/serve.err
+website/serve.log
+*.log
+.env
+.env.*
